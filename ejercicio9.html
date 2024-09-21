@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" href="estilo.css" type="text/css" media="screen">
+    <script src="ejercicio9.js" defer></script>
+</head>
+<body>
+    <h1>Ejercicio 9</h1>
+    <p>Construir un validador para un formulario de registro que, dado el HTML que se proporciona, </p>
+    <p>valide cada uno de los campos cuando el usuario ha terminado de introducir datos en cada uno</p>
+    <p>de ellos, es decir, al perder el foco. Si el campo no cumple las restricciones, se mostrará </p> 
+    <p>una alerta al usuario, pero se le permitirá seguir introduciendo datos en el resto de campos.</p>
+    <div class="principal">
+        <form name="calcular">
+            <label for="nombre">Nombre:</label>
+            <input class="cajas" type="text" name="nombre" id="nombre" />
+            <br><br>
+            
+            <label for="email">Email:</label>
+            <input class="cajas" type="text" name="email" id="email" />
+            <br><br>
+            
+            <label for="password">Password:</label>
+            <input class="cajas" type="password" name="password" id="password" />
+            <br><br>
+            
+            <label for="comentarios">Comentarios:</label>
+            <textarea id="comentarios" maxlength="100"></textarea>
+            <br><br>
+
+            <label>
+                <input type="checkbox" >
+                Acepto las condiciones del servicio
+            </label>
+            <br><br>
+            
+            <input class="boton" type="submit" id="Enviar" value="Enviar" />
+        </form>
+    </div>
+
+    <footer>
+        <div class="footer-nav">
+            <form action="index.html">
+                <button type="submit">Menú Principal</button>
+            </form>
+            <form action="ejercicio1.html">
+                <button type="submit">Ejercicio 1</button>
+            </form>
+            <form action="ejercicio2.html">
+                <button type="submit">Ejercicio 2</button>
+            </form>
+            <form action="ejercicio3.html">
+                <button type="submit">Ejercicio 3</button>
+            </form>
+            <form action="ejercicio4.html">
+                <button type="submit">Ejercicio 4</button>
+            </form>
+            <form action="ejercicio5.html">
+                <button type="submit">Ejercicio 5</button>
+            </form>
+            <form action="ejercicio6.html">
+                <button type="submit">Ejercicio 6</button>
+            </form>
+            <form action="ejercicio7.html">
+                <button type="submit">Ejercicio 7</button>
+            </form>
+            <form action="ejercicio8.html">
+                <button type="submit">Ejercicio 8</button>
+            </form>
+            <form action="ejercicio9.html">
+                <button type="submit">Ejercicio 9</button>
+            </form>
+            <form action="ejercicio10.html">
+                <button type="submit">Ejercicio 10</button>
+            </form>
+        </div>
+    </footer>
+</body>
+</html>
